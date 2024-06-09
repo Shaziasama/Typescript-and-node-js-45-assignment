@@ -1,10 +1,5 @@
-console.log(5+3);
+let favoriteNumber: number = 8 ;
 
+let message: string =`my favorite number: ${favoriteNumber}`;
 
-console.log(10-2);
-
-console.log(4*2);
-
-console.log(16/2);
-
-
+console.log(message);
