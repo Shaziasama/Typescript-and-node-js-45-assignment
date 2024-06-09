@@ -1,17 +1,19 @@
-// this program add two numbers and print the result 
+//array
+//define an arry of names
+let names: string[] = ["hina","sana","faiza", "sakina","shazia"];
 
-import { clearScreenDown } from "readline";
+//loop
+//for each
+//for of loop
 
-//define two numbers
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
 
-let number1: number = 10;
+for (let name of names) {
+    console.log(name);
+}
 
-let number2: number = 20;
-
-//add two numbers
- 
-let result: number = number1 + number2;
-
-//print the result
-
-console.log(result);
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
