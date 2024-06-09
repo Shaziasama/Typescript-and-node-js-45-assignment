@@ -1,34 +1,21 @@
-let alien_color = "green";
-
-if (alien_color == "green") {
-    console.log("you shot down green alien you have earned 5 points");
+//creating variable
+let age = 22
+if(age < 2){
+    console.log("your are baby")
 }
-else if(alien_color === "yellow"){
-    console.log("you shot down yellow alien you have earned 10 points");
-}
-else if (alien_color === "red"){
-    console.log("you shot down red alien you have earned 15 points");
+else if(age >= 2 && age < 4){
+    console.log("you are tolder")
 }
 
-//second version 
-let alien_color2 = "yellow" 
-if (alien_color2 === "Green"){
-    console.log("you shot down yellow alien you have earned 5 points");
+else if(age >= 4 && age < 13){
+    console.log("you are kid")
 }
-else if (alien_color2 === "yellow"){
-    console.log("you shot down yellow alien you have earned 10 points");
+else if(age >= 13 && age <20){
+    console.log("you are teenager")
 }
-else if(alien_color2 === "red"){
-    console.log("you shot down red alien you have earned 15 points");
- } 
- //version 3
- let alien_color3 = "red";
- if (alien_color3 === "green"){
-     console.log("you shot down green alien you have earned 5 points");
- }
-else if (alien_color3 === "yellow"){
-    console.log("you shot down yellow alien you have earned 10 points");
+else if(age >= 20 && age <65){
+    console.log("you are adult")
+} else if(age >= 65){
+    console.log("you are elder")
 }
-else if (alien_color3 === "red"){
-    console.log("you shot down red alien you have earned 15 points");
-}
+
