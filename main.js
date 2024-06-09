@@ -1,8 +1,8 @@
-var pizza = ["chicken Tikka", "Malai cheese", "Fajita"];
-//using for loop
-for (var _i = 0, pizza_1 = pizza; _i < pizza_1.length; _i++) {
-    var onePizza = pizza_1[_i];
-    console.log("i like ".concat(onePizza, " pizza"));
+var petAnimals = ["Cat", "Dog", "Rabbit",];
+//USING FOR LOOP
+for (var _i = 0, petAnimals_1 = petAnimals; _i < petAnimals_1.length; _i++) {
+    var onePet = petAnimals_1[_i];
+    console.log("A ".concat(onePet, " would make a great pet"));
 }
-//ptint a message out side of loop
-console.log("i eat pizza");
+//message print out side
+console.log("Any of these animals would make a great pet!");
