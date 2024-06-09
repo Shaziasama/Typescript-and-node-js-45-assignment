@@ -1,8 +1,7 @@
-function describe_city(city, country) {
-    if (country === void 0) { country = "Pakistan"; }
-    console.log("".concat(city, " is in ").concat(country));
+function city_country(city, country) {
+    return "".concat(city, " ,").concat(country);
 }
-//calling the function
-describe_city("karachi");
-describe_city("Lahore");
-describe_city("Berline", "Germany");
+//calling a function print the return value
+city_country(" Karachi", "Pakistan");
+console.log(city_country(" Karachi", "Pakistan"));
+console.log(city_country("Tokoyo", "Japan"));
