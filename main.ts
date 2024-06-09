@@ -1,14 +1,10 @@
-let additionResult:  number = 5+3
-console.log("additionResult:", additionResult);
+console.log(5+3);
 
 
+console.log(10-2);
 
-let subtractResult:number = 10-2
-console.log("subtractResult;" , subtractResult);
+console.log(4*2);
+
+console.log(16/2);
 
 
-let multiplyResult: number = 2*4
-console.log("multiplyResult;" , multiplyResult);
-
-let divideResult: number = 16/2
-console.log("divideResult;" , divideResult);
