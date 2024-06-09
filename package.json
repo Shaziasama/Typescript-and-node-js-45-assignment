@@ -1,8 +1,8 @@
 {
-  "name": "assignment-18",
+  "name": "assignment-19",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "imain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
