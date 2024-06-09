@@ -1,7 +1,14 @@
-let nameWithWhiteSpace: string = "\t\n shazia zohaib\t\n";
+let additionResult:  number = 5+3
+console.log("additionResult:", additionResult);
 
-console.log("name with white space:",nameWithWhiteSpace);
 
-let strippedName: string = nameWithWhiteSpace.trim();
 
-console.log("stripped name:",strippedName);
+let subtractResult:number = 10-2
+console.log("subtractResult;" , subtractResult);
+
+
+let multiplyResult: number = 2*4
+console.log("multiplyResult;" , multiplyResult);
+
+let divideResult: number = 16/2
+console.log("divideResult;" , divideResult);
