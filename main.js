@@ -1,5 +1,9 @@
 "use strict";
-let transportationMode = ["car", "motocycle", "biycycle", "bus"];
-transportationMode.forEach(mode => {
-    console.log(` i would like to own ${mode}`);
+// for each method
+let guestList = ["hina", "arsalan", "ubaid"];
+guestList.forEach(guest => {
+    console.log(`dear ${guest}, you are cordially invited to dinner`);
 });
+//map method
+let invitation = guestList.map(guest => `Dear ${guest}, you are cordially invited`);
+console.log(invitation);

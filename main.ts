@@ -1,6 +1,11 @@
-let transportationMode: string [] = ["car", "motocycle", "biycycle","bus"];
+ // for each method
+ let guestList: string[] =["hina","arsalan","ubaid"];
 
-transportationMode.forEach(mode => {
+guestList.forEach(guest => {
 
-    console.log(` i would like to own ${mode}`);
+    console.log(`dear ${guest}, you are cordially invited to dinner`);
 })
+//map method
+
+let invitation: string [] = guestList.map(guest => `Dear ${guest}, you are cordially invited`);
+console.log(invitation);
