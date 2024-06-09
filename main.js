@@ -1,3 +1,6 @@
-var programingLanguage = ["typescript", "javascript", "python"];
-console.log("List of programingLanguage:");
-programingLanguage.forEach(function (language) { return (console.log(language)); });
+var itCourse = {
+    courseName: "typescript",
+    location: "governor house",
+    onsiteStudents: 50000,
+};
+console.log(itCourse);
