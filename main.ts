@@ -1,13 +1,13 @@
-let userName = ["sana","hina","rudaba","admin","ayfer"]
-if (userName.length === 0) {
-    console.log("your array is empty we need to find some users!");
-}else{
+let currentUser =["Ahad", "hashir","Zohaib","Raza", "Zeshan"]
 
-//using foreach loop methods on arrays
-userName.forEach(oneUser => {
-    if (oneUser === "admin"){
-     console.log(`hello! ${oneUser},would you like to see a status report`);
-    }else{
-        console.log(`hello! ${oneUser} thank you for login again`);
-    }
-})}
+let newUser = ["Sohail","Ali","Hashir","Usman","Ahad"]
+
+//loop for check new user and user name ability
+newUser.forEach(newOneUser => {
+    let ourCondition = currentUser.some(currentOneUser => currentOneUser.toLowerCase()===newOneUser.toLowerCase())
+  if(ourCondition){
+    console.log(` sorry ${newOneUser} is already taken!`)
+  }else{
+    console.log(`this userName ${newOneUser} is available!`)
+}
+})
