@@ -1,8 +1,6 @@
-//gretting message to firend
-let names: string[] = ["hina","sana","faiza", "sakina","shazia"];
+let transportationMode: string [] = ["car", "motocycle", "biycycle","bus"];
 
-for (let friendName of names) {
-    console.log(`hi ${friendName} ! how are you today?`);
-} 
+transportationMode.forEach(mode => {
 
-
+    console.log(` i would like to own ${mode}`);
+})

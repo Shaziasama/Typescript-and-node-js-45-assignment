@@ -1,6 +1,5 @@
 "use strict";
-//gretting message to firend
-let names = ["hina", "sana", "faiza", "sakina", "shazia"];
-for (let friendName of names) {
-    console.log(`hi ${friendName} ! how are you today?`);
-}
+let transportationMode = ["car", "motocycle", "biycycle", "bus"];
+transportationMode.forEach(mode => {
+    console.log(` i would like to own ${mode}`);
+});
