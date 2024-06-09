@@ -1,8 +1,6 @@
-let petAnimals = [ "Cat", "Dog", "Rabbit",];
-
-//USING FOR LOOP
-for( let onePet of petAnimals) {
-    console.log(`A ${onePet} would make a great pet`);
+function make_shirt (size: string, printMessage:string){
+    console.log(`you selected ${size} siza shirt with ${printMessage} prints on shirt`);
 }
-//message print out side
-console.log("Any of these animals would make a great pet!")
+make_shirt("meduim" , "samma");
+make_shirt("small" ,"chohan");
+make_shirt("large" ," hashir");

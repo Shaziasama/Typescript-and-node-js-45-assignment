@@ -1,8 +1,6 @@
-var petAnimals = ["Cat", "Dog", "Rabbit",];
-//USING FOR LOOP
-for (var _i = 0, petAnimals_1 = petAnimals; _i < petAnimals_1.length; _i++) {
-    var onePet = petAnimals_1[_i];
-    console.log("A ".concat(onePet, " would make a great pet"));
+function make_shirt(size, printMessage) {
+    console.log("you selected ".concat(size, " siza shirt with ").concat(printMessage, " prints on shirt"));
 }
-//message print out side
-console.log("Any of these animals would make a great pet!");
+make_shirt("meduim", "samma");
+make_shirt("small", "chohan");
+make_shirt("large", " hashir");
