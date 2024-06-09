@@ -1,19 +1,8 @@
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var pizza = ["chicken Tikka", "Malai cheese", "Fajita"];
 //using for loop
-for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
-    var oneNumber = numbers_1[_i];
-    var oridenalEnding = void 0;
-    if (oneNumber === 1) {
-        oridenalEnding = "st";
-    }
-    else if (oneNumber === 2) {
-        oridenalEnding = "nd";
-    }
-    else if (oneNumber === 3) {
-        oridenalEnding = "rd";
-    }
-    else {
-        oridenalEnding = "th";
-    }
-    console.log("".concat(oneNumber).concat(oridenalEnding));
+for (var _i = 0, pizza_1 = pizza; _i < pizza_1.length; _i++) {
+    var onePizza = pizza_1[_i];
+    console.log("i like ".concat(onePizza, " pizza"));
 }
+//ptint a message out side of loop
+console.log("i eat pizza");
