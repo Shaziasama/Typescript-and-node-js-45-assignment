@@ -1,21 +1,18 @@
-//creating variable
-let age = 22
-if(age < 2){
-    console.log("your are baby")
-}
-else if(age >= 2 && age < 4){
-    console.log("you are tolder")
-}
+let favorit_fruits =  ["apple", "orange", "mango"]
 
-else if(age >= 4 && age < 13){
-    console.log("you are kid")
+//usind 5 independant statements
+if(favorit_fruits. includes("mango")){
+    console.log("I really like mango");
 }
-else if(age >= 13 && age <20){
-    console.log("you are teenager")
+if (favorit_fruits.includes("orange")){
+    console.log("I really like orange");
 }
-else if(age >= 20 && age <65){
-    console.log("you are adult")
-} else if(age >= 65){
-    console.log("you are elder")
+if (favorit_fruits.includes("banana")){
+    console.log("I really like banana");
 }
-
+if (favorit_fruits.includes("apple")){
+      console.log("I really like apple");
+}
+if (favorit_fruits.includes("grapes")){
+    console.log("I really like grapes");
+}
