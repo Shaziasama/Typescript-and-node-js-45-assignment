@@ -1,10 +1,14 @@
-//storing a person name in a veriable
+//Assignment 4
+let quote: string = "A person who never made a mistake never tired any thing new";
 
-let personName: string= "shazia zohaib";
+let author: string = "Albert Eistein ";
 
-//printing a person name in lower case
+console.log(`"${quote}" once said, ${author}`);
 
-console.log("lowercase:" , personName.toLowerCase());
-console.log("uppercase:" , personName.toUpperCase()) ;
-console.log("titlecase:" , personName.replace(/\b\w/g, (char) => char.toUpperCase())) ;
 
+//Assignment 5
+let famous_Person: string = "Albert Eistein";
+
+let message: string = `${famous_Person} once said, "${quote}"`
+
+console.log(message);
