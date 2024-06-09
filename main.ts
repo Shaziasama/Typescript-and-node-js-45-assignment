@@ -1,50 +1,31 @@
-let guestLists: string[] = ["hina", "arslan","ubaid" ];
+import { reverse } from "dns";
+import { textSpanContainsPosition } from "typescript";
 
-//print the name who cant attend dinner
+//store the location in arry alphabetical order
+let countriesToVisit: string[] = ["China","Denmark","Bareen","  Australia",];
+//ptint the arry original odrder
+console.log("original oder: " , countriesToVisit);
 
-let unableAttend: string = guestLists[0];
-console.log(`${unableAttend} not invited for dinner`);
+//print the arry in alphanbitical oder without modifying the actual l
+console.log("alphabetical order: " ,[...countriesToVisit].sort());
 
-//add or remove guest from guest list array
-guestLists.splice(0, 1 ,"Ahmed");
+//show that the arry is still in its original order
+console.log("still aphabetical order:", countriesToVisit);
 
-//  message print for bigger table
-console.log("Good news! we have found a bigger table for dinner");
+//print the arry in reverse order
+console.log("Reverse order:" ,[...countriesToVisit].reverse());
 
-//adding a new guest at strting index of array
-guestLists.unshift("Ali");
+//show that the arry is still in orginal oder
+console.log("still aphabetical order:", countriesToVisit);
 
-//adding a new guest at ending index of array
-guestLists.push("zain");
+// we have changed the original arry oder now
+console.log("original Arry reverse:", countriesToVisit.reverse());
 
-// get a middle index of array
-let middleIndex: number = Math.floor(guestLists.length / 2);
+//print the arry to show its original oder
+console.log("back to original arry:", countriesToVisit.reverse());   
 
-//adding a new guest middle index of array
-guestLists.splice(middleIndex, 0,"Usama");
-console.log("updated list of our guest");
+//print the arry to show and change alphabetical oder
+console.log("sorted in alphabetical order:", countriesToVisit.sort());
 
-guestLists.forEach(oneguest =>console.log(`salam ${oneguest} ,would you like to dinner with me`));
-//question 17 
-//inform that only two guest can be invited for dinner
-console.log("unfortunatlt,the new dinner table wont arrive on time, so I can only invite two guest with me");
-
-//while
-while(guestLists.length > 2){
-    let removedGuest = guestLists.pop();
-    console.log(`sorry ,${removedGuest} I cant invite you to dinner`);
-}
-//sending the invitation to the last guest on the list
-console.log("Invitations to the last 2 guest");
-
-guestLists.forEach(lasttwo =>  console.log(`Lucky $(lasttwo you are still invited`));
-
-//removing last two guest from the list
-guestLists.pop();
-guestLists.pop();
-console.log("Empty List: " + guestLists);
-
-
-
-
-
+//arry reverse again
+console.log("original arry Reversed:", countriesToVisit.reverse());
