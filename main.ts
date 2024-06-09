@@ -1,6 +1,15 @@
-function make_shirt (size: string, printMessage:string){
-    console.log(`you selected ${size} siza shirt with ${printMessage} prints on shirt`);
+ function make_shirt (size: string  = "large" ,printMessage: string ="I love typescript"){
+  console.log(` creating the ${size}  shirt with the ${printMessage} print on shirt `);
 }
-make_shirt("meduim" , "samma");
-make_shirt("small" ,"chohan");
-make_shirt("large" ," hashir");
+//calling a function by defult values
+make_shirt();
+
+//calling a function now  meduim size defualt message 
+
+
+
+make_shirt("meduim");
+
+
+//calling a function now SMALL size defualt message
+make_shirt("meduim", "I love Javascript");
