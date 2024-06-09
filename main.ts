@@ -1,5 +1,17 @@
-let favoriteNumber: number = 8 ;
+// this program add two numbers and print the result 
 
-let message: string =`my favorite number: ${favoriteNumber}`;
+import { clearScreenDown } from "readline";
 
-console.log(message);
+//define two numbers
+
+let number1: number = 10;
+
+let number2: number = 20;
+
+//add two numbers
+ 
+let result: number = number1 + number2;
+
+//print the result
+
+console.log(result);
