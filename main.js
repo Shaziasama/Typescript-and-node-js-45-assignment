@@ -1,17 +1,8 @@
-function make_album(artist_name, album_title, tracks) {
-    var album = {
-        artist: artist_name,
-        title: album_title,
-    };
-    if (tracks !== undefined) {
-        album.tracks = tracks;
-    }
-    return album;
+// define a function to print each magician name from  an array
+function show_megicians(megicians) {
+    megicians.forEach(function (name) { return console.log(name); });
 }
-//calling three function and creating three variables with different values
-var album1 = make_album("shazia", "Album title 1");
-var album2 = make_album("Hashir", "Album title 2");
-var album3 = make_album("sana", "Album title 3 ", 10);
-console.log(album1);
-console.log(album2);
-console.log(album3);
+//define an array containing magicians name
+var magicians_names = ["Albert", "Molecular", "Herry potters"];
+//call the function to print each magicians name
+show_megicians(magicians_names);
