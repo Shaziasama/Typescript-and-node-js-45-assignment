@@ -25,7 +25,26 @@ guestLists.splice(middleIndex, 0,"Usama");
 console.log("updated list of our guest");
 
 guestLists.forEach(oneguest =>console.log(`salam ${oneguest} ,would you like to dinner with me`));
+//question 17 
+//inform that only two guest can be invited for dinner
+console.log("unfortunatlt,the new dinner table wont arrive on time, so I can only invite two guest with me");
+
+//while
+while(guestLists.length > 2){
+    let removedGuest = guestLists.pop();
+    console.log(`sorry ,${removedGuest} I cant invite you to dinner`);
+}
+//sending the invitation to the last guest on the list
+console.log("Invitations to the last 2 guest");
+
+guestLists.forEach(lasttwo =>  console.log(`Lucky $(lasttwo you are still invited`));
+
+//removing last two guest from the list
+guestLists.pop();
+guestLists.pop();
+console.log("Empty List: " + guestLists);
 
 
-    
+
+
 
