@@ -1,7 +1,12 @@
+//making the programming language in  array
 
- let guestList: string[] =["hina","arsalan","ubaid" ,"shazia"];
+let programingLanguage: string[] =["typescript" ,"javascript","python"]
 
+//ptint the message of list
+console.log("List of programingLanguage:");
 
+programingLanguage.forEach(language => (console.log(language)));
+    
 
-let lengthGuest: number = guestList.length;
-console.log(`we are invitng total ${lengthGuest} guests.`);
+    
+
