@@ -1,9 +1,12 @@
-// define a function to print each magician name from  an array
-function show_megicians(megicians : string[]){
-    megicians.forEach(name => console.log(name));
-    }
-    //define an array containing magicians name
-    let magicians_names =[ "Albert","Molecular","Herry potters"]
+// define the function show megicain name
+function show_magicains(magicains: string[]){
+    magicains.forEach(name => console.log(name)); 
+        }
+function make_great(magicians: string[]){
+    return magicians.map(name => `The great ${name}`);
+}
+//define an arry of magicians names
+let magicians_names =["Albert", "herry potter","John"]
 
-    //call the function to print each magicians name
-    show_megicians(magicians_names);
+let great_magicians = make_great(magicians_names);
+show_magicains(great_magicians)
