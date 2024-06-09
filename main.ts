@@ -1,14 +1,7 @@
-//Assignment 4
-let quote: string = "A person who never made a mistake never tired any thing new";
+let nameWithWhiteSpace: string = "\t\n shazia zohaib\t\n";
 
-let author: string = "Albert Eistein ";
+console.log("name with white space:",nameWithWhiteSpace);
 
-console.log(`"${quote}" once said, ${author}`);
+let strippedName: string = nameWithWhiteSpace.trim();
 
-
-//Assignment 5
-let famous_Person: string = "Albert Eistein";
-
-let message: string = `${famous_Person} once said, "${quote}"`
-
-console.log(message);
+console.log("stripped name:",strippedName);
