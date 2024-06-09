@@ -6,6 +6,11 @@ function make_great(magicians) {
     return magicians.map(function (name) { return "The great ".concat(name); });
 }
 //define an arry of magicians names
-var magicians_names = ["Albert", "herry potter", "John"];
-var great_magicians = make_great(magicians_names);
-show_magicains(great_magicians);
+var magician_names = ["Albert", "herry potter", "John"];
+//making of copy original arry through . slice() funnction
+var copy_magicians_names = magician_names.slice();
+//mofify the copy arry include "The great" with theirs names
+var copy_great_magicians = make_great(copy_magicians_names);
+//show both arrays original and copied
+show_magicains(magician_names);
+show_magicains(copy_great_magicians);
