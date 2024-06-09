@@ -1,12 +1,19 @@
-var currentUser = ["Ahad", "hashir", "Zohaib", "Raza", "Zeshan"];
-var newUser = ["Sohail", "Ali", "Hashir", "Usman", "Ahad"];
-//loop for check new user and user name ability
-newUser.forEach(function (newOneUser) {
-    var ourCondition = currentUser.some(function (currentOneUser) { return currentOneUser.toLowerCase() === newOneUser.toLowerCase(); });
-    if (ourCondition) {
-        console.log(" sorry ".concat(newOneUser, " is already taken!"));
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//using for loop
+for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+    var oneNumber = numbers_1[_i];
+    var oridenalEnding = void 0;
+    if (oneNumber === 1) {
+        oridenalEnding = "st";
+    }
+    else if (oneNumber === 2) {
+        oridenalEnding = "nd";
+    }
+    else if (oneNumber === 3) {
+        oridenalEnding = "rd";
     }
     else {
-        console.log("this userName ".concat(newOneUser, " is available!"));
+        oridenalEnding = "th";
     }
-});
+    console.log("".concat(oneNumber).concat(oridenalEnding));
+}

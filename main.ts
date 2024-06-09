@@ -1,13 +1,19 @@
-let currentUser =["Ahad", "hashir","Zohaib","Raza", "Zeshan"]
+let numbers = [1, 2, 3, 4, 5 , 6, 7, 8 ,9]
 
-let newUser = ["Sohail","Ali","Hashir","Usman","Ahad"]
-
-//loop for check new user and user name ability
-newUser.forEach(newOneUser => {
-    let ourCondition = currentUser.some(currentOneUser => currentOneUser.toLowerCase()===newOneUser.toLowerCase())
-  if(ourCondition){
-    console.log(` sorry ${newOneUser} is already taken!`)
-  }else{
-    console.log(`this userName ${newOneUser} is available!`)
+//using for loop
+for( let oneNumber of numbers){
+    let oridenalEnding:string;
+if(oneNumber === 1){
+    oridenalEnding = "st"
 }
-})
+else if(oneNumber === 2){
+    oridenalEnding = "nd"
+}
+else if(oneNumber === 3){
+    oridenalEnding = "rd"
+}
+else{
+    oridenalEnding = "th"
+}
+console.log(`${oneNumber}${oridenalEnding}`)
+}
