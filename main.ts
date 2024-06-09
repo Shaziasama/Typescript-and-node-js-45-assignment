@@ -1,11 +1,17 @@
- // for each method
- let guestList: string[] =["hina","arsalan","ubaid"];
+let guestLists: string[] = ["hina", "arslan","ubaid" ];
 
-guestList.forEach(guest => {
+//print the name who cant attend dinner
 
-    console.log(`dear ${guest}, you are cordially invited to dinner`);
-})
-//map method
+let unableAttend: string = guestLists[0];
+console.log(`${unableAttend} not invited for dinner`);
 
-let invitation: string [] = guestList.map(guest => `Dear ${guest}, you are cordially invited`);
-console.log(invitation);
+let personAttend: string = ("Ahmed");
+//replacing the name into array
+guestLists[guestLists.indexOf(unableAttend)] = personAttend;
+
+guestLists.forEach(name => {
+    console.log(`Dear ${name} you are invited to dinner!`);
+    
+}); 
+    
+

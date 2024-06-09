@@ -1,9 +1,11 @@
 "use strict";
-// for each method
-let guestList = ["hina", "arsalan", "ubaid"];
-guestList.forEach(guest => {
-    console.log(`dear ${guest}, you are cordially invited to dinner`);
+let guestLists = ["hina", "arslan", "ubaid"];
+//print the name who cant attend dinner
+let unableAttend = guestLists[0];
+console.log(`${unableAttend} not invited for dinner`);
+let personAttend = ("Ahmed");
+//replacing the name into array
+guestLists[guestLists.indexOf(unableAttend)] = personAttend;
+guestLists.forEach(name => {
+    console.log(`Dear ${name} you are invited to dinner!`);
 });
-//map method
-let invitation = guestList.map(guest => `Dear ${guest}, you are cordially invited`);
-console.log(invitation);
