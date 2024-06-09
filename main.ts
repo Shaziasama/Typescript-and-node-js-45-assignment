@@ -1,18 +1,11 @@
-let favorit_fruits =  ["apple", "orange", "mango"]
+//using the array
+let userName = ["sana","hina","rudaba","admin","ayfer"]
 
-//usind 5 independant statements
-if(favorit_fruits. includes("mango")){
-    console.log("I really like mango");
-}
-if (favorit_fruits.includes("orange")){
-    console.log("I really like orange");
-}
-if (favorit_fruits.includes("banana")){
-    console.log("I really like banana");
-}
-if (favorit_fruits.includes("apple")){
-      console.log("I really like apple");
-}
-if (favorit_fruits.includes("grapes")){
-    console.log("I really like grapes");
-}
+//using foreach loop methods on arrays
+userName.forEach(oneUser => {
+    if (oneUser === "admin"){
+     console.log(`hello! ${oneUser},would you like to see a status report`);
+    }else{
+        console.log(`hello! ${oneUser} thank you for login again`);
+    }
+})

@@ -1,16 +1,11 @@
-var favorit_fruits = ["apple", "orange", "mango"];
-if (favorit_fruits.includes("mango")) {
-    console.log("I really like mango");
-}
-if (favorit_fruits.includes("orange")) {
-    console.log("I really like orange");
-}
-if (favorit_fruits.includes("banana")) {
-    console.log("I really like banana");
-}
-if (favorit_fruits.includes("apple")) {
-    console.log("I really like apple");
-}
-if (favorit_fruits.includes("grapes")) {
-    console.log("I really like grapes");
-}
+//using the array
+var userName = ["sana", "hina", "rudaba", "admin", "ayfer"];
+//using foreach loop methods on arrays
+userName.forEach(function (oneUser) {
+    if (oneUser === "admin") {
+        console.log("hello! ".concat(oneUser, ",would you like to see a status report"));
+    }
+    else {
+        console.log("hello! ".concat(oneUser, " thank you for login again"));
+    }
+});
