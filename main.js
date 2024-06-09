@@ -1,6 +1,7 @@
 "use strict";
-//asssigment 1
-//storing the person name in a veriable
-let personnName = "shazia";
-//printing a message to the person
-console.log(`Hello ${"personName"} would you like to learn some python today?`);
+//storing a person name in a veriable
+let personName = "shazia zohaib";
+//printing a person name in lower case
+console.log("lowercase:", personName.toLowerCase());
+console.log("uppercase:", personName.toUpperCase());
+console.log("titlecase:", personName.replace(/\b\w/g, (char) => char.toUpperCase()));

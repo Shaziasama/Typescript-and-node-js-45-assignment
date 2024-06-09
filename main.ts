@@ -1,7 +1,10 @@
-//asssigment 1
-//storing the person name in a veriable
+//storing a person name in a veriable
 
-let personnName: string= "shazia" ;
+let personName: string= "shazia zohaib";
 
-//printing a message to the person
-console.log(`Hello ${"personName"} would you like to learn some python today?`);
+//printing a person name in lower case
+
+console.log("lowercase:" , personName.toLowerCase());
+console.log("uppercase:" , personName.toUpperCase()) ;
+console.log("titlecase:" , personName.replace(/\b\w/g, (char) => char.toUpperCase())) ;
+
